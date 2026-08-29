@@ -21,7 +21,7 @@
   injectable `:http-fn` -- the same `{:url :method :headers :body} ->
   {:status :body}` convention as cloudflare.client/jvm-http-fn."
   (:require [clojure.string :as str]
-            #?(:clj [clojure.data.json :as json])))
+            #?(:clj [json.data-json :as json])))
 
 (def default-api-version "v25.0")
 
