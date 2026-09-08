@@ -1,6 +1,6 @@
 (ns facebook-graph.client-test
   (:require [clojure.test :refer [deftest is testing]]
-            [clojure.string :as str]
+            [kotoba.lang.text :as str]
             [facebook-graph.client :as client]))
 
 (defn- stub-http-fn [status body]
