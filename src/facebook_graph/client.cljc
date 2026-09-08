@@ -20,7 +20,7 @@
   call is JVM-only by default (java.net.http) but always takes an
   injectable `:http-fn` -- the same `{:url :method :headers :body} ->
   {:status :body}` convention as cloudflare.client/jvm-http-fn."
-  (:require [clojure.string :as str]
+  (:require [kotoba.lang.text :as str]
             #?(:clj [json.data-json :as json])))
 
 (def default-api-version "v25.0")
