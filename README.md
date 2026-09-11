@@ -96,7 +96,7 @@ which this repo does not have and cannot provision itself.
 ## Test
 
 ```sh
-clojure -M:test
+kbb -M:test
 ```
 
 Stubbed `:http-fn` throughout — no `FACEBOOK_ACCESS_TOKEN` or live account
